@@ -9,6 +9,6 @@ const AccountSchema=mongoose.Schema({
 
 })
 
-const AccountModle=mongoose.model("Account",AccountSchema)
+const AccountModle=mongoose.model("account",AccountSchema)
 
 module.exports={AccountModle}
