@@ -1,12 +1,15 @@
-import { Link } from "react-router-dom"
-
+import { Link } from "react-router-dom";
+import { Nav } from "../css/navbar";
 const Navbar=()=>{
     return(
-        <div>
-            <Link to="/">PayWise</Link>
-            <Link to="/Card">Card</Link>
-            <Link to="/Login">Login</Link>
-        </div>
+        <Nav>
+            <div >
+            <Link to="/"><b><i>PayWise</i></b></Link>
+            </div>
+            <div >
+            <Link to="/Login"><b><i>Login</i></b></Link>
+            </div>
+        </Nav>
     )
 }
 export default Navbar;
